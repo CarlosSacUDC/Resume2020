@@ -1,0 +1,140 @@
+@charset = "utf-8";
+/*
+	Intro Web Page Dev & HTML
+	Using it all together: Resume
+   
+	Typography and Color Styles for Resume Website
+	Author: Carlos Sac
+	Date:   02/26/2021
+   
+	Filename: rs_styles.css
+*/
+
+/* Reset Typographic Styles */
+address, article, aside, blockquote, cite,
+div, dl, dt, dd, em, figcaption, figure, footer,
+h1, h2, h3, h4, h5, h6, header, html, img,
+li, main, nav, ol, p, section, span, ul {
+	background: transparent;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+/* HTML and Body Styles */
+
+html {   
+   font-family: 'Century Gothic';
+   background-color: hsl(202,88.2%,93.3%)
+}
+body {
+   background-color: rgb(100, 100, 95);  
+}
+
+/* Basic Info Styles */
+#basicInfo{
+	line-height: 28px;
+}
+
+/* Headings Styles */
+h1{
+	color: rgb(255,255,255); 
+	text-align: left; 
+	font-size: 3.01em;
+	line-height: 45px;
+}
+h2{
+	color: rgb(8,44,92); 
+	text-align: left; 
+	font-size: 1.34em;
+}
+h3{
+	text-align: left; 
+	font-size: 1.17em;
+}
+
+/* Footer Styles */
+footer{
+	background-color: rgb(8,44,92);
+	color: rgb(255,255,255); 
+	text-align: center;
+}
+
+/* Basic Info h2 Styles */
+#basicInfo>h2{
+	font-weight:normal;
+	color: rgb(255,255,255);	
+}
+
+/* Unordered Lists Styles */
+ul.skills,ul.bars,nav>ul{
+	list-style-type: none;
+}
+
+/* Photo Styles */
+div.col-photo > a > img{
+	border: 4px solid #FFFFFF;
+	border-radius: 50%;
+}
+
+/* Grids Styles */
+div.outer1, div.outer2{
+	background-color: rgb(255, 255, 255);
+	overflow: auto;
+	border: 1px solid #d3d3d3;
+}
+
+div.outer1{
+	background-color: rgb(8,44,92);
+	color: rgb(255,255,255); 
+}
+
+/* Navigation Styles */
+nav> ul > li > a:link, nav> ul > li > a :visited {
+	font-size: 1.34em;
+	text-decoration: none;
+	font-weight: bold;
+}
+nav> ul > li > a:hover, nav> ul > li > a:active {
+	color: rgb(174, 198, 207);
+	text-decoration: underline;
+}
+div.col-home > a:link, div.col-home > a:visited {
+	font-size: 1.34em;
+	text-decoration: none;
+	font-weight: bold;
+}
+div.col-home > a :hover, div.col-home > a:active {
+	color: rgb(174, 198, 207);
+	text-decoration: underline;
+}
+p > a:link, p > a :visited {
+	text-decoration: none;
+}
+p > a:hover, p > a:active {
+	color: rgb(174, 198, 207);
+	text-decoration: underline;
+}
+
+#contactInfo> p > a:link, #contactInfo > p > a:visited {
+	color: rgb(249, 255, 203);
+	text-decoration: none;
+}
+#contactInfo> p > a:hover, #contactInfo> p > a:active {
+	color: rgb(255, 244, 156);
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+*/
